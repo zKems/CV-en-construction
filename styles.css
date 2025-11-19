@@ -17,3 +17,16 @@ html{
 a[title] {
     color:red
 }
+
+header .entete {
+    text-align: center;
+}
+
+header .entete {
+border: 2px solid black ;
+padding: 5px;
+padding-top : 10px;
+margin: 10px;
+margin-left : 20em; 
+margin-right : 20em;
+ }
