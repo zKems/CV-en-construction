@@ -3,7 +3,7 @@ h1{
 }
 
 body{
-    color:rgb(255,160,122)
+    color:rgb(0, 0, 0)
 }
 
 em{
@@ -11,7 +11,7 @@ em{
 }
 
 html{
-    background-color:bisque
+    background-color:rgb(255, 255, 255)
 }
 
 a[title] {
@@ -27,6 +27,10 @@ border: 2px solid black ;
 padding: 5px;
 padding-top : 10px;
 margin: 10px;
-margin-left : 20em; 
-margin-right : 20em;
+margin-left : 41em; 
+margin-right : 41em;
  }
+
+.retour {
+    text-align: right;
+}
