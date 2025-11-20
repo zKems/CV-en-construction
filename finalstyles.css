@@ -1,0 +1,113 @@
+body {
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e7e7e7;
+  color: #1a1a1a;
+}
+
+.cv-container {
+  width: 880px;
+  background: #ffffff;
+  margin: 60px auto;
+  padding: 50px;
+  border: 2px solid #000;
+  outline: 8px solid #000;
+  outline-offset: 10px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.25);
+}
+
+/* HEADER AVEC LIGNE NOIRE */
+.header-top {
+  border-bottom: 6px solid #000;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.header-top h1 {
+  font-size: 44px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  font-size: 18px;
+  letter-spacing: 5px;
+  margin-top: 8px;
+  color: #444;
+}
+
+/* TITRE AVEC BANDE NOIRE SLIM */
+.section-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-title::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 5px;
+  background: #000;
+}
+
+/* INFO PERSONNELLE */
+.info-grid {
+  margin-top: 15px;
+  padding: 18px;
+  border: 3px solid #000;
+  background: #fafafa;
+  line-height: 1.8;
+}
+
+/* TEXTE */
+p {
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* LISTES AVEC LIGNE NOIRE SUR LE CÔTÉ */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 5px solid #000;
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+
+/* CENTRES D'INTÉRÊT EN BLOCS CADRÉS */
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.two-columns div {
+  border: 3px solid #000;
+  padding: 15px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* HOVER GÉNÉRAL */
+.cv-container:hover {
+  box-shadow: 0 0 55px rgba(0,0,0,0.35);
+}
